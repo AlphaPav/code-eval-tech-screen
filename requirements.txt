@@ -1,0 +1,7 @@
+requests
+torch
+transformers
+accelerate
+datasets
+vllm
+docker
