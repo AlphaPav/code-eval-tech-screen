@@ -15,6 +15,18 @@ from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+EOS = [
+    "<|endoftext|>",
+    "<|endofmask|>",
+    "</s>",
+    "\nif __name__",
+    "\ndef main(",
+    # "\nprint(",
+    # "\n#",
+    "\n```",
+]
+
+
 
 class HumanEvalInference:
     def __init__(self, api_base: str = "http://localhost:8080", model_name: str = "Qwen/Qwen2.5-Coder-0.5B-Instruct"):
@@ -34,7 +46,19 @@ class HumanEvalInference:
         
         if strategy == "direct":
             return prompt
-        
+        if strategy == "instruct":
+            return f"""<|im_start|>system
+You are an intelligent programming assistant to produce Python algorithmic solutions<|im_end|>
+<|im_start|>user
+Can you complete the following Python function?
+```python
+{prompt}
+```
+<|im_end|>
+<|im_start|>assistant
+```python
+"""
+
         elif strategy == "cot":
             return f"""# Task: Complete the following Python function
 # Think step by step and then provide the complete solution
@@ -82,7 +106,7 @@ def find_max(numbers):
                         "prompt": prompt,
                         "max_tokens": max_tokens,
                         "temperature": temperature,
-                        "stop": ["\nclass ", "\ndef ", "\n#", "\nif __name__"],
+                        "stop": EOS,
                         "echo": False  # This prevents echoing the prompt back
                     },
                     timeout=60
@@ -96,7 +120,7 @@ def find_max(numbers):
                         "max_tokens": max_tokens,
                         "temperature": temperature,
                         "n": num_samples,
-                        "stop": ["\nclass ", "\ndef ", "\n#", "\nif __name__"],
+                        "stop": EOS,
                         "echo": False  # This prevents echoing the prompt back
                     },
                     timeout=60

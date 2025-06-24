@@ -74,10 +74,20 @@ bash script/run.sh
 
 ### Results
 
+direct prompt
+
 | Temperature | Pass@1 (%) |
 |-------------|------------|
 | 0.0         | 44.51      |
 | 0.2         | 45.73      |
+
+
+chat template
+
+| Temperature | Pass@1 (%) |
+|-------------|------------|
+| 0.0         | 59.76      |
+| 0.2         | 58.54      |
 
 
 ## Performance & Quality Improvement

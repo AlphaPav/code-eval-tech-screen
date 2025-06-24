@@ -1,0 +1,994 @@
+{
+  "results": [
+    {
+      "task_id": "HumanEval/3",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/2",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/1",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "['()', '(())', '(()())']\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/0",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/13",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/5",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/4",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/7",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[]\n['abc', 'bacd', 'array']\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/9",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/8",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "(0, 1)\n(10, 24)\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/6",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 52, in <module>\n  File \"<string>\", line 46, in parse_nested_parens\nIndexError: list index out of range\n"
+    },
+    {
+      "task_id": "HumanEval/10",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 65, in <module>\n  File \"<string>\", line 60, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/11",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/12",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/15",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/16",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/14",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/17",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/18",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/19",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "one three five\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/23",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/21",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[0.0, 0.25, 0.5, 0.75, 1.0]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/22",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/24",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/27",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 29, in <module>\n  File \"<string>\", line 26, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/28",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/20",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "(2.0, 2.2)\n(2.0, 2.0)\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/25",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[2, 2, 2]\n[5, 5]\n[2, 5, 7]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/30",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/26",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/31",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/29",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/34",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/35",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/33",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/36",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/41",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 52, in <module>\n  File \"<string>\", line 45, in check\nAssertionError\n0\n0\n0\n0\n0\n"
+    },
+    {
+      "task_id": "HumanEval/48",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/37",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 43, in check\n  File \"<string>\", line 33, in sort_even\nTypeError: cannot unpack non-iterable int object\n"
+    },
+    {
+      "task_id": "HumanEval/45",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/42",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/40",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/38",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 56, in <module>\n  File \"<string>\", line 53, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/47",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 42, in <module>\n  File \"<string>\", line 36, in check\nAssertionError\n3\n10\n"
+    },
+    {
+      "task_id": "HumanEval/32",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 92, in <module>\n  File \"<string>\", line 88, in check\n  File \"<string>\", line 69, in find_zero\nAttributeError: 'float' object has no attribute 'is_real'\n"
+    },
+    {
+      "task_id": "HumanEval/43",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/44",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "22\n1000\n111\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/39",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 73, in <module>\n  File \"<string>\", line 61, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/50",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 45, in <module>\n  File \"<string>\", line 42, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/49",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/46",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/51",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "\nbcdf\nghjklm\nbcdf\n\nB\nzbcd\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/53",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/52",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/55",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/57",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/54",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/56",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "False\nTrue\nTrue\nFalse\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/59",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 44, in <module>\n  File \"<string>\", line 38, in check\n1\n1\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/60",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/65",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 57, in <module>\n  File \"<string>\", line 50, in check\nAssertionError\n21\n12\n45123\n34512\n23451\n12345\n51234\n45123\n34512\n23451\n12345\n"
+    },
+    {
+      "task_id": "HumanEval/61",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/66",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/63",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/62",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[1, 4, 12, 20]\n[2, 6]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/58",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[1, 5, 653]\n[2, 3]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/67",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "8\n2\n95\n19\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/68",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/69",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/71",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/70",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[1, 4, 2, 3]\n[5, 5, 5, 5]\n[]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/73",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "4\n1\n0\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/72",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/75",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 62, in <module>\n  File \"<string>\", line 52, in check\nAssertionError\nTrue\nTrue\nFalse\n"
+    },
+    {
+      "task_id": "HumanEval/77",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 39, in check\nAssertionError: Third test error: False\n"
+    },
+    {
+      "task_id": "HumanEval/74",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 69, in <module>\n  File \"<string>\", line 60, in check\nAssertionError\n[]\n['hI', 'Hi']\n['hi', 'admin']\n['hI', 'hi', 'hi']\n['4']\n"
+    },
+    {
+      "task_id": "HumanEval/76",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "True\nTrue\nTrue\nFalse\nFalse\nFalse\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/80",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 44, in check\nAssertionError: aabb\n"
+    },
+    {
+      "task_id": "HumanEval/78",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "1\n2\n4\n6\n2\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/79",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "db1111db\ndb100000db\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/82",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "True\nTrue\nTrue\nFalse\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/64",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "  File \"<string>\", line 171\n    def check(candidate):\n    ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "task_id": "HumanEval/83",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 43, in <module>\n  File \"<string>\", line 34, in check\nAssertionError\n1\n9\n90\n900\n9000\n"
+    },
+    {
+      "task_id": "HumanEval/84",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "1\n110\n1100\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/85",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/86",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "Hi\nehllo\nHello !!!Wdlor\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/89",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "lm\newhjklnop\nkj\nix\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/90",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "2\n2\nNone\nNone\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/88",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[]\n[5]\n[0, 1, 2, 3, 4, 5]\n[6, 5, 4, 3, 2, 1, 0]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/81",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "['A+', 'B', 'C-', 'C', 'A-']\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/87",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 59, in <module>\n  File \"<string>\", line 48, in get_row\n  File \"<string>\", line 48, in <lambda>\nTypeError: 'int' object is not subscriptable\n"
+    },
+    {
+      "task_id": "HumanEval/91",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 61, in <module>\n  File \"<string>\", line 51, in check\nAssertionError: Test 2\n0\n0\n"
+    },
+    {
+      "task_id": "HumanEval/92",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/93",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 61, in <module>\n  File \"<string>\", line 52, in check\nAssertionError: This prints if this assert fails 1 (good for debugging!)\nTEoST\ntHIuS IuS Ai MEoSSAiGEo\n"
+    },
+    {
+      "task_id": "HumanEval/95",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 40, in check\n  File \"<string>\", line 31, in check_dict_case\n  File \"<string>\", line 31, in <genexpr>\nAttributeError: 'int' object has no attribute 'islower'\n"
+    },
+    {
+      "task_id": "HumanEval/98",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "1\n0\n0\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/97",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/99",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 74, in <module>\n  File \"<string>\", line 67, in check\nAssertionError: Test 3\n10\n15\n15\n-14\n"
+    },
+    {
+      "task_id": "HumanEval/94",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "10\n25\n13\n11\n3\n7\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/96",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[2, 3]\n[2, 3, 5, 7]\n[]\n[2, 3, 5, 7, 11, 13, 17, 19]\n[]\n[2, 3, 5, 7, 11, 13, 17]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/101",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 26, in <module>\n  File \"<string>\", line 23, in words_string\nAttributeError: 'list' object has no attribute 'split'\n"
+    },
+    {
+      "task_id": "HumanEval/100",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 55, in <module>\n  File \"<string>\", line 45, in check\nAssertionError: Test 3\n[3, 3, 3, 3]\n[4, 4, 4, 4]\n[5, 5, 5, 5, 5, 5]\n[6, 6, 6, 6, 6, 6]\n"
+    },
+    {
+      "task_id": "HumanEval/103",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 71, in <module>\n  File \"<string>\", line 54, in check\nAssertionError\n11\n-1\n1111\n11010\n"
+    },
+    {
+      "task_id": "HumanEval/104",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 51, in <module>\n  File \"<string>\", line 43, in check\nAssertionError\n[1, 15, 33]\n[323]\n"
+    },
+    {
+      "task_id": "HumanEval/102",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/107",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "(1, 2)\n(4, 6)\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/106",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[1, 2, 6, 24, 15]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/108",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 38, in check\nAssertionError\n0\n3\n3\n"
+    },
+    {
+      "task_id": "HumanEval/105",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 71, in <module>\n  File \"<string>\", line 55, in by_length\nTypeError: object of type 'int' has no len()\n"
+    },
+    {
+      "task_id": "HumanEval/109",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 77, in <module>\n  File \"<string>\", line 72, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/110",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "YES\nNO\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/111",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 75, in <module>\n  File \"<string>\", line 62, in check\n{' ': 2}\n{' ': 3}\n{' ': 4}\n{'b': 4, ' ': 4}\n{}\nAssertionError: This prints if this assert fails 1 (good for debugging!)\n"
+    },
+    {
+      "task_id": "HumanEval/112",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "('bcd', False)\n('acdef', False)\n('cdedc', True)\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/114",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/116",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "[1, 2, 4, 3, 5]\n[-4, -2, -6, -5, -3]\n[0, 1, 2, 4, 3]\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/115",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 101, in <module>\n  File \"<string>\", line 91, in check\n  File \"<string>\", line 80, in max_fill\nNameError: name 'math' is not defined\n"
+    },
+    {
+      "task_id": "HumanEval/113",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "['the number of odd elements 4n the str4ng 4 of the 4nput.']\n['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/119",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 68, in <module>\n  File \"<string>\", line 51, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/121",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 37, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/120",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 77, in <module>\n  File \"<string>\", line 62, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/118",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 66, in <module>\n  File \"<string>\", line 48, in check\nAssertionError\n\n\n\n\n"
+    },
+    {
+      "task_id": "HumanEval/117",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "['little']\n['Mary', 'lamb']\n[]\n['world']\n['Uncle']\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/122",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 55, in <module>\n  File \"<string>\", line 46, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/125",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 54, in <module>\n  File \"<string>\", line 46, in check\nAssertionError\n['Hello', 'world!']\n['Hello,world!']\n['abcdef']\n"
+    },
+    {
+      "task_id": "HumanEval/123",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 60, in <module>\n  File \"<string>\", line 52, in check\nAssertionError\n[1, 3, 5, 7]\n"
+    },
+    {
+      "task_id": "HumanEval/128",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 58, in <module>\n  File \"<string>\", line 45, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/126",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 64, in <module>\n  File \"<string>\", line 58, in check\nAssertionError: This prints if this assert fails 5 (good for debugging!)\n"
+    },
+    {
+      "task_id": "HumanEval/124",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 107, in <module>\n  File \"<string>\", line 97, in check\n  File \"<string>\", line 50, in valid_date\nValueError: not enough values to unpack (expected 3, got 1)\n"
+    },
+    {
+      "task_id": "HumanEval/131",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/127",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 83, in <module>\n  File \"<string>\", line 72, in check\nAssertionError\nNO\nYES\nYES\n"
+    },
+    {
+      "task_id": "HumanEval/132",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 68, in <module>\n  File \"<string>\", line 52, in check\nAssertionError\nTrue\nFalse\nTrue\nTrue\nTrue\nFalse\n"
+    },
+    {
+      "task_id": "HumanEval/133",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 53, in <module>\n  File \"<string>\", line 35, in check\n  File \"<string>\", line 31, in sum_squares\n  File \"<string>\", line 31, in <genexpr>\nNameError: name 'math' is not defined\n"
+    },
+    {
+      "task_id": "HumanEval/130",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 58, in <module>\n  File \"<string>\", line 53, in tri\nIndexError: list index out of range\n"
+    },
+    {
+      "task_id": "HumanEval/129",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 114, in <module>\n  File \"<string>\", line 99, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/135",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 39, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/134",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 67, in <module>\n  File \"<string>\", line 52, in check\nAssertionError\nTrue\nFalse\nFalse\nFalse\n"
+    },
+    {
+      "task_id": "HumanEval/136",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "(None, 1)\n(None, None)\n(None, None)\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/137",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 42, in <module>\n  File \"<string>\", line 30, in compare_one\nValueError: could not convert string to float: '2,3'\n2.5\n"
+    },
+    {
+      "task_id": "HumanEval/142",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 62, in <module>\n  File \"<string>\", line 47, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/145",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 39, in check\nAssertionError\n[1, -1, 11, -11, -12]\n[]\n"
+    },
+    {
+      "task_id": "HumanEval/139",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 46, in <module>\n  File \"<string>\", line 38, in check\n24\nAssertionError: Test 4\n"
+    },
+    {
+      "task_id": "HumanEval/144",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "True\nFalse\nFalse\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/143",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "is\ngo for\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/140",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 33, in <module>\n  File \"<string>\", line 27, in fix_spaces\nNameError: name 're' is not defined\n"
+    },
+    {
+      "task_id": "HumanEval/146",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "1\n2\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/150",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "34\n5\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/148",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 73, in <module>\n  File \"<string>\", line 61, in check\nAssertionError: First test error: 2\n['Saturn', 'Uranus']\n['Venus']\n['Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn']\n"
+    },
+    {
+      "task_id": "HumanEval/149",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 43, in <module>\nNameError: name 'list_sort' is not defined\n"
+    },
+    {
+      "task_id": "HumanEval/147",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 53, in <module>\n  File \"<string>\", line 48, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/151",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 54, in <module>\n  File \"<string>\", line 42, in check\nAssertionError: This prints if this assert fails 3 (good for debugging!)\n"
+    },
+    {
+      "task_id": "HumanEval/138",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "  File \"<string>\", line 166\n    def check(candidate):\n    ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "task_id": "HumanEval/152",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/158",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/153",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "Slices.SErviNGSliCes\nmy_class.AA\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/141",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "  File \"<string>\", line 98\n    print(file_name_check(\"file1234567890123456789\n                                                  ^\nSyntaxError: EOL while scanning string literal\n"
+    },
+    {
+      "task_id": "HumanEval/157",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 54, in <module>\n  File \"<string>\", line 39, in check\nAssertionError: This prints if this assert fails 1 (good for debugging!)\nFalse\nFalse\nFalse\nFalse\nFalse\n"
+    },
+    {
+      "task_id": "HumanEval/154",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "False\nTrue\nFalse\nTrue\nFalse\nTrue\nPASSED\n"
+    },
+    {
+      "task_id": "HumanEval/156",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 51, in <module>\n  File \"<string>\", line 44, in int_to_mini_roman\nTypeError: '>=' not supported between instances of 'int' and 'str'\n"
+    },
+    {
+      "task_id": "HumanEval/155",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 39, in <module>\n  File \"<string>\", line 27, in even_odd_count\nValueError: invalid literal for int() with base 10: '-'\n"
+    },
+    {
+      "task_id": "HumanEval/162",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "PASSED\n"
+    },
+    {
+      "task_id": "HumanEval/160",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 84, in <module>\n  File \"<string>\", line 77, in check\nAssertionError\n"
+    },
+    {
+      "task_id": "HumanEval/159",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 91, in <module>\n  File \"<string>\", line 80, in check\nAssertionError: Error\n[5, 5]\n[4, 5]\n[1, 9]\n[2, 3]\n"
+    },
+    {
+      "task_id": "HumanEval/163",
+      "sample_id": 0,
+      "passed": false,
+      "logs": "Traceback (most recent call last):\n  File \"<string>\", line 56, in <module>\n  File \"<string>\", line 48, in check\nAssertionError: Test 2\n[2, 4, 6, 8]\n[]\n[]\n"
+    },
+    {
+      "task_id": "HumanEval/161",
+      "sample_id": 0,
+      "passed": true,
+      "logs": "4321\nAB\n#A@c\nPASSED\n"
+    }
+  ],
+  "metrics": {
+    "pass_at_1": 0.5975609756097561,
+    "total_tasks": 164,
+    "total_solutions": 164,
+    "max_samples_per_task": 1
+  }
+}
