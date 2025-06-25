@@ -35,11 +35,11 @@ This script should interact with the served model to generate predictions for th
 - Run the inference:
 ```
 python humaneval_inference.py \
-    --output results/direct_results_temp0.2.jsonl \
+    --output results/instruct_results_temp0.2.jsonl \
     --temperature 0.2 \
     --num-samples 1 \
-    --max-tokens 512 \
-    --strategy direct
+    --max-tokens 2048 \
+    --strategy instruct
 ```
 
 ## Evaluation:
@@ -56,7 +56,7 @@ sudo bash scripts/eval_docker.sh
 
 ```
 python humaneval_evaluation.py \
-    --results results/direct_results_temp0.2.jsonl \
+    --results results/instruct_results_temp0.2.jsonl \
     --output results/evaluation_temp0.2.json
 ```
 
@@ -117,7 +117,6 @@ python humaneval_evaluation.py \
 
 ```
 # Try different prompting strategies
-python humaneval_inference.py --strategy cot      # Chain of thought
 python humaneval_inference.py --strategy examples # With examples
 ```
 

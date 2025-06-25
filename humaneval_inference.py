@@ -60,35 +60,53 @@ Can you complete the following Python function?
 """
 
         elif strategy == "cot":
-            return f"""# Task: Complete the following Python function
-# Think step by step and then provide the complete solution
+            return f"""<|im_start|>system
+You are an intelligent programming assistant to produce Python algorithmic solutions<|im_end|>
+<|im_start|>user
+Can you complete the following Python function? Think step by step and then provide the complete solution.
 
+```python
 {prompt}
-
+```
+<|im_end|><|im_start|>assistant
 # Let me think step by step:
 # 1. Understand what the function needs to do
 # 2. Plan the implementation
 # 3. Write the code
-
+```python
 """
         elif strategy == "examples":
-            return '''# Here are some example solutions:
+            return f'''<|im_start|>system
+You are an intelligent programming assistant to produce Python algorithmic solutions<|im_end|><|im_start|>user
+Here are some example solutions:
 
+```python
 def add_numbers(a, b):
     """Add two numbers together."""
     return a + b
+```
 
+```python
 def reverse_string(s):
     """Reverse a string."""
     return s[::-1]
+```
 
+```python
 def find_max(numbers):
     """Find maximum in a list."""
     if not numbers:
         return None
     return max(numbers)
+```
 
-# Now solve this problem:
+Can you complete the following Python function?
+```python
+{prompt}
+```
+<|im_end|>
+<|im_start|>assistant
+```python
 '''            
 
         else:
@@ -167,10 +185,10 @@ def find_max(numbers):
         """Run inference on entire HumanEval dataset"""
         if config is None:
             config = {
-                "temperature": 0.1,
-                "max_tokens": 512,
+                "temperature": 0,
+                "max_tokens": 2048,
                 "num_samples": 1,
-                "strategy": "direct",
+                "strategy": "instruct",
                 "max_workers": 4
             }
         
@@ -211,10 +229,10 @@ def main():
     parser.add_argument("--api-base", default="http://localhost:8080", help="vLLM API base URL")
     parser.add_argument("--model", default="Qwen/Qwen2.5-Coder-0.5B-Instruct", help="Model name")
     parser.add_argument("--output", default="humaneval_results.jsonl", help="Output file")
-    parser.add_argument("--temperature", type=float, default=0.1, help="Generation temperature")
-    parser.add_argument("--max-tokens", type=int, default=512, help="Max tokens to generate")
+    parser.add_argument("--temperature", type=float, default=0, help="Generation temperature")
+    parser.add_argument("--max-tokens", type=int, default=2048, help="Max tokens to generate")
     parser.add_argument("--num-samples", type=int, default=1, help="Number of samples per problem")
-    parser.add_argument("--strategy", choices=["direct", "instruct", "cot", "examples"], default="direct", help="Prompting strategy")
+    parser.add_argument("--strategy", choices=["direct", "instruct", "cot", "examples"], default="instruct", help="Prompting strategy")
     parser.add_argument("--max-workers", type=int, default=4, help="Number of parallel workers")
     
     args = parser.parse_args()
